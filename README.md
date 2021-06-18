@@ -1,7 +1,5 @@
-# Hybrid-FilterGA
-Keep the csv file of features in the same directory as these codes and use the following in the command prompt to set the current directory to the code directory.
-
-`cd /d "D:/Hybrid-FilterGA"`
+# Hybrid_MOEA
+This is the official implementation of our paper titled "" under peer review in .
 
 ## Requirements
 To install the required libraries run the following in the command prompt:
@@ -13,4 +11,4 @@ For running exhaustive experiments using the whole range of topk1 and topk2 valu
 
 `python main.py --root "csvUCI/" --csv_name "SpectEW.csv"`
 
-By default it is assumed that the csv file contains no headers. But if it does, then add the argument `--csv_header yes` in the code above, otherwise an error will be triggered. All csv files must have the class labels in the last column of the file as integer/float values.
+By default it is assumed that the csv file contains no headers. But if it does, then add the argument `--csv_header yes` in the code above, otherwise an error will be triggered. `--root` denotes the folder where the csv file is stored (by default it is `"./"`). All csv files must have the class labels in the last column of the file as integer/float values.
