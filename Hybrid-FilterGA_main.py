@@ -7,6 +7,7 @@ import argparse
 tic=time.time()
 
 parser = argparse.ArgumentParser()
+parser.add_argument('--root', type=str, default = './', help='Directory where feature files are stored.')
 parser.add_argument('--csv_name', type=str, required = True, help='Name of csv file- Example: SpectEW.csv')
 parser.add_argument('--csv_header', type=str, default = 'no', help='Does csv file have header?: yes/no')
 parser.add_argument('--generations', type=int, default = 20, help='Number of Generations to run the algorithm')
@@ -15,7 +16,7 @@ parser.add_argument('--topk', type=int, default = 11, help="Top 'k' ranked featu
 parser.add_argument('--save_fig', type=bool, default = False, help="Save result plot?")
 args = parser.parse_args()
 
-root = "./"
+root = args.root
 if root[-1]!='/':
     root+='/'
 csv_path = args.csv_name
@@ -26,7 +27,7 @@ else:
 data = df[:,0:-1]
 target = df[:,-1]
 
-Importing required modules
+#Importing required modules
 import math
 import random
 import matplotlib.pyplot as plt
