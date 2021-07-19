@@ -1,10 +1,7 @@
 import numpy as np
 import pandas as pd
 from Py_FS.filter import MI,SCC,Relief,PCC
-import time
 import argparse
-
-tic=time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--root', type=str, default = './', help='Directory where feature files are stored.')
