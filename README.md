@@ -1,5 +1,5 @@
-# Hybrid_MOEA
-This is the official implementation of our paper titled "" under peer review in .
+# HFMOEA
+This is the official implementation of our paper titled "HFMOEA: A Hybrid Framework for Multi-objective Feature Selection" under peer review in Expert Systems with Applications, Elsevier.
 
 ## Requirements
 To install the required libraries run the following in the command prompt:
