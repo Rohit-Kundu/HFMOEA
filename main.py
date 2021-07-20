@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from Py_FS.filter import MI,SCC,Relief,PCC
+from filter_methods import *
 import argparse
 
 parser = argparse.ArgumentParser()
