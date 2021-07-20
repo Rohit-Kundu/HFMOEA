@@ -140,7 +140,7 @@ sol.append(chi_square(data,target))
 sol.append(info_gain(data,target))
 sol.append(MAD(data,target))
 sol.append(Dispersion_ratio(data,target))
-sol.append(feature_selection_sim(data, target, measure = 'park'))
+sol.append(feature_selection_sim(data, target))
 sol.append(Fisher_score(data,target))
 
 topk = args.topk
