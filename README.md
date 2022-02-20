@@ -6,7 +6,7 @@ To install the required libraries run the following in the command prompt:
 
 `pip install -r requirements.txt`
 
-## Using the Hybrid-FilterGA Algorithm
+## Using the HFMOEA Algorithm
 For running exhaustive experiments using the whole range of topk1 and topk2 values, run the following code in Command Prompt:
 
 `python main.py --root "path_to_csv/" --csv_name "DeepFeatures.csv"`
