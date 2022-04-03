@@ -18,4 +18,4 @@ Other available arguments are listed as follows:
 - `generations`: Number of generations for the HFMOEA algorithm
 - `mutation`: Percentage of mutation
 - `topk`: "topk" number of features (Please refer to our paper for more details)
-- `save_fig`: Whether the plots need to be saved or not
+- `save_fig`: Whether the plots are to be saved or not
