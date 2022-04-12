@@ -46,7 +46,7 @@ def info_gain(data,target):
     result.ranked_features = feature_values[:, result.ranks]
     return result
 
-#-------------------------  Mean Absolute Dispersion  -------------------------------------------#
+#-------------------------  Mean Absolute Deviation  -------------------------------------------#
 def MAD(data,target):
     mean_abs_diff = np.sum(np.abs(data-np.mean(data,axis=0)),axis=0)/data.shape[0]
     feature_values = np.array(data)
