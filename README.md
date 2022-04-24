@@ -1,5 +1,5 @@
 # HFMOEA
-This is the official implementation of our paper titled "HFMOEA: A Hybrid Framework for Multi-objective Feature Selection" under peer review in Journal of Computational Design and Engineering, Oxford.
+This is the official implementation of our paper titled "HFMOEA: A Hybrid Framework for Multi-objective Feature Selection" accepted for publication in Journal of Computational Design and Engineering, Oxford.
 
 ## Requirements
 To install the required libraries run the following in the command prompt:  
@@ -17,3 +17,16 @@ Other available arguments are listed as follows:
 - `mutation`: Percentage of mutation
 - `topk`: "topk" number of features (Please refer to our paper for more details)
 - `save_fig`: Whether the plots are to be saved or not
+
+# Citation
+If you find our repository useful, please consider citing our paper:
+```
+@article{kundu2022hfmoea,
+  title={HFMOEA: A Hybrid Framework for Multi-objective Feature Selection,
+  author={Kundu, Rohit and Mallipeddi, Rammohan},
+  journal={Journal of Computational Design and Engineering},
+  year={2022},
+  publisher={Oxford University Press}
+}
+
+```
