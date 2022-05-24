@@ -1,5 +1,5 @@
 # HFMOEA
-This is the official implementation of our paper titled "HFMOEA: A Hybrid Framework for Multi-objective Feature Selection" accepted for publication in Journal of Computational Design and Engineering, Oxford.
+This is the official implementation of our paper titled "[HFMOEA: A Hybrid Framework for Multi-objective Feature Selection](https://doi.org/10.1093/jcde/qwac040)" published in Journal of Computational Design and Engineering, Oxford.
 
 ## Requirements
 To install the required libraries run the following in the command prompt:  
